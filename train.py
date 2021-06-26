@@ -22,7 +22,7 @@ from text import sequence_to_text, text_to_sequence
 from datasets.datafeeder import DataFeeder, _prepare_inputs
 
 log = infolog.log
-
+# print("11")
 
 def create_batch_inputs_from_texts(texts):
     sequences = [text_to_sequence(text) for text in texts]
